@@ -44,7 +44,7 @@ async def register_user(
     responses={status.HTTP_401_UNAUTHORIZED: {"description": "Invalid credentials"}},
 )
 async def login(
-    form_data: Annotated[OAuth2PasswordRequestForm, Depends()], response: Response,
+        form_data: Annotated[OAuth2PasswordRequestForm, Depends()], response: Response,
         session: Annotated[AsyncSession, Depends(db_helper.session_getter)],
 ) -> Token:
     """
