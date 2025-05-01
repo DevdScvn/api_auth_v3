@@ -31,6 +31,10 @@ class Settings(BaseSettings):
         env_prefix="APP_CONFIG__", )
     run: RunConfig = RunConfig()
     db: DatabaseConfig
+    secret_key: str
+    algorithm: str
+    access_token: int
+    refresh_token: int
 
 
 settings = Settings()
