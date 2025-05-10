@@ -18,3 +18,21 @@
 
 <img width="867" alt="Снимок экрана 2025-05-10 в 22 49 45" src="https://github.com/user-attachments/assets/98f71ee9-f886-42c8-a38a-127725b765de" />
 
+Установка и запуск
+Клонируйте репозиторий:
+
+bash
+git clone https://github.com/yourusername/auth-app.git
+cd auth-app
+Создайте файл .env на основе .env.example:
+
+Запустите приложение с помощью Docker Compose:
+
+bash
+docker-compose up -d --build
+После запуска приложение будет доступно по адресу:
+
+http://localhost:8000
+Документация API (Swagger UI) доступна по адресу:
+
+http://localhost:8000/docs
