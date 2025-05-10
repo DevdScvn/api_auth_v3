@@ -22,7 +22,7 @@
 Клонируйте репозиторий:
 
 bash
-git clone https://github.com/yourusername/auth-app.git
+"""git clone https://github.com/yourusername/auth-app.git"""
 cd auth-app
 Создайте файл .env на основе .env.example:
 
