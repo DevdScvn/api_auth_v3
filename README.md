@@ -38,3 +38,6 @@ http://localhost:8000
 http://localhost:8000/docs
 
 - **Дополнительно**: 
+2. Запустите сервисы:
+```bash
+docker-compose up -d --build
