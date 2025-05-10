@@ -36,3 +36,5 @@ http://localhost:8000
 Документация API (Swagger UI) доступна по адресу:
 
 http://localhost:8000/docs
+
+- **Дополнительно**: 
