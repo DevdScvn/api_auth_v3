@@ -24,7 +24,7 @@
 2. Запустите сервисы:
 ```bash
 git clone https://github.com/yourusername/auth-app.git
-
+```
 cd auth-app
 Создайте файл .env на основе .env.example:
 
@@ -43,3 +43,4 @@ http://localhost:8000/docs
 2. Запустите сервисы:
 ```bash
 docker-compose up -d --build
+```
