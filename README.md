@@ -1,5 +1,65 @@
 # Api_auth_v3
+- Веб-фреймворк: FastAPI
 
+- ORM: SQLAlchemy с асинхронной поддержкой
+
+- База данных: PostgreSQL
+
+- Система миграций: Alembic
+
+
+```
+
+
+1. Запуск приложения:
+
+```bash
+git clone https://github.com/yourusername/auth-app.git
+```
+
+
+Создайте файл:
+
+.env на основе .env.example
+
+Установите зависимости:
+```bash
+poetry install
+```
+
+Запустите сервисы с помощью Docker Compose:
+
+```bash
+docker-compose up -d --build
+```
+
+Запустите приложение с Uvicorn:
+
+```bash
+cd src
+uvicorn main:main_app --reload --port 8000
+```
+
+**После запуска приложение будет доступно по адресу:**
+
+http://localhost:8000
+
+http://localhost:8000/docs
+
+2. Миграции базы данных
+   
+Создайте миграцию:
+
+```bash
+alembic revision --autogenerate -m "Initial migration"
+```
+
+Примените миграции:
+
+```bash
+cd src
+alembic upgrade head
+```
 
 ```
 .
