@@ -90,10 +90,11 @@ git clone https://github.com/yourusername/auth-app.git
 docker-compose up -d --build
 ```
 
-После запуска приложение будет доступно по адресу:
+**После запуска приложение будет доступно по адресу:**
+
 http://localhost:8000
+
 http://localhost:8000/docs
 
-- **Дополнительно**: 
 2. Запустите сервисы:
 
