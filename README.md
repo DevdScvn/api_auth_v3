@@ -104,8 +104,19 @@ http://localhost:8000
 
 http://localhost:8000/docs
 
+
+
 2. Миграции базы данных
-   
+
+Инициализируйте Alembic:
+
+```bash
+cd app
+alembic init -t async migration
+```
+
+Затем переместите alembic.ini в корень проекта.
+
 Создайте миграцию:
 
 ```bash
