@@ -1,5 +1,3 @@
-
-
 from sqladmin import ModelView
 from database.base import TimeStampModel
 
