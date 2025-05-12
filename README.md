@@ -46,7 +46,7 @@ docker-compose up -d --build
 ```
 
 
-
+```
 ├── app/
 │   ├── auth/                   # Модуль авторизации и аутентификации
 │   │   ├── dao.py              # Data Access Object для работы с БД
